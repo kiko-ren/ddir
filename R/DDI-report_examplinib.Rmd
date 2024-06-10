@@ -275,7 +275,7 @@ mech_stat_cyp_risk_table(compounds, cyp_inhibition_data, cyp_induction_data,
 ## Basic modeling of UGT inhibition
 
 The relevant metric for basic modeling of the UGT inhibition risk is
-$R_1=I_{max,ss,u}/K_{i,u}$. For the clinical risk assessment, a cut-off of
+$R_1=1+I_{max,ss,u}/K_{i,u}$. For the clinical risk assessment, a cut-off of
 $R<1.02$ applies.
 
 In in vitro UGT inhibition studies, ususally $IC_{50}$ rather than $k_i$ values
